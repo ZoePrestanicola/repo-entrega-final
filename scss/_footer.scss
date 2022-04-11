@@ -1,0 +1,49 @@
+
+footer a:hover{
+	font-weight: 800
+}
+
+footer .section1{
+	padding: 5px 5px;
+	display: flex;
+	justify-content: flex-end;
+}	
+	
+footer .section2{
+	background-color: white;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+.logoIg{
+	width: 30px;
+}
+
+footer .section2 a{
+	color: black;
+}
+
+/* animaciones */
+
+@keyframes alpha{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+
+
+.alpha{
+	animation-name: alpha;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+}
+
+/*.button{
+	height: 100px;
+	transition: height 2s;
+}*/
+
+.button:hover{
+	background-color: #c0eb75;
+	color: black;
+	font-weight: 800
+}
